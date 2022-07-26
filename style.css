@@ -7,3 +7,13 @@
 #headphone {
     background-color:  lightpink;
 }
+@media only  screen and (min-width: 1366px) {
+    .card {
+        transition: 0.5s;
+    }
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 1px 1px 10px;
+        border: none;
+    }
+}
